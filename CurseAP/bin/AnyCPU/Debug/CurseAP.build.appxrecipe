@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ARGOROK</Machine>
+    <WindowsUser>Adonis</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>236e0a0f-81cb-4f9b-bb65-44ca818a612d</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Adonis</PackageIdentityPublisher>
+    <IntermediateOutputPath>Q:\source\repos\CurseModExtractor\CurseAP\obj\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath></WindowsSdkPath>
+    <LayoutDir>Q:\source\repos\CurseModExtractor\CurseAP\bin\AnyCPU\Debug\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="Q:\source\repos\CurseModExtractor\CurseAP\bin\AnyCPU\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="Q:\source\repos\CurseModExtractor\CurseAP\Images\SplashScreen.scale-200.png">
+      <PackagePath>Images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Q:\source\repos\CurseModExtractor\CurseAP\Images\LockScreenLogo.scale-200.png">
+      <PackagePath>Images\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Q:\source\repos\CurseModExtractor\CurseAP\Images\Square150x150Logo.scale-200.png">
+      <PackagePath>Images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Q:\source\repos\CurseModExtractor\CurseAP\Images\Square44x44Logo.scale-200.png">
+      <PackagePath>Images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Q:\source\repos\CurseModExtractor\CurseAP\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Q:\source\repos\CurseModExtractor\CurseAP\Images\StoreLogo.png">
+      <PackagePath>Images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Q:\source\repos\CurseModExtractor\CurseAP\Images\Wide310x150Logo.scale-200.png">
+      <PackagePath>Images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Q:\source\repos\CurseModExtractor\CurseAP\bin\AnyCPU\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adonis\.nuget\packages\flurl\4.0.0\lib\netstandard2.0\Flurl.dll">
+      <PackagePath>CurseModExtractor\Flurl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adonis\.nuget\packages\flurl.http\4.0.2\lib\net6.0\Flurl.Http.dll">
+      <PackagePath>CurseModExtractor\Flurl.Http.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adonis\.nuget\packages\newtonsoft.json\13.0.3\lib\net6.0\Newtonsoft.Json.dll">
+      <PackagePath>CurseModExtractor\Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adonis\.nuget\packages\nlog\5.4.0\lib\netstandard2.0\NLog.dll">
+      <PackagePath>CurseModExtractor\NLog.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Q:\source\repos\CurseModExtractor\bin\Debug\net8.0\CurseModExtractor.deps.json">
+      <PackagePath>CurseModExtractor\CurseModExtractor.deps.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Q:\source\repos\CurseModExtractor\obj\Debug\net8.0\apphost.exe">
+      <PackagePath>CurseModExtractor\CurseModExtractor.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Q:\source\repos\CurseModExtractor\bin\Debug\net8.0\CurseModExtractor.runtimeconfig.json">
+      <PackagePath>CurseModExtractor\CurseModExtractor.runtimeconfig.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Q:\source\repos\CurseModExtractor\bin\Debug\net8.0\CurseModExtractor.dll">
+      <PackagePath>CurseModExtractor\CurseModExtractor.dll</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

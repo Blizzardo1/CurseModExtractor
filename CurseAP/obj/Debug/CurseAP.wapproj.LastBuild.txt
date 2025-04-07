@@ -1,0 +1,17 @@
+Q:\source\repos\CurseModExtractor\CurseAP\Images\SplashScreen.scale-200.png
+Q:\source\repos\CurseModExtractor\CurseAP\Images\LockScreenLogo.scale-200.png
+Q:\source\repos\CurseModExtractor\CurseAP\Images\Square150x150Logo.scale-200.png
+Q:\source\repos\CurseModExtractor\CurseAP\Images\Square44x44Logo.scale-200.png
+Q:\source\repos\CurseModExtractor\CurseAP\Images\Square44x44Logo.targetsize-24_altform-unplated.png
+Q:\source\repos\CurseModExtractor\CurseAP\Images\StoreLogo.png
+Q:\source\repos\CurseModExtractor\CurseAP\Images\Wide310x150Logo.scale-200.png
+Q:\source\repos\CurseModExtractor\CurseAP\bin\AnyCPU\Debug\resources.pri
+C:\Users\Adonis\.nuget\packages\flurl\4.0.0\lib\netstandard2.0\Flurl.dll
+C:\Users\Adonis\.nuget\packages\flurl.http\4.0.2\lib\net6.0\Flurl.Http.dll
+C:\Users\Adonis\.nuget\packages\newtonsoft.json\13.0.3\lib\net6.0\Newtonsoft.Json.dll
+C:\Users\Adonis\.nuget\packages\nlog\5.4.0\lib\netstandard2.0\NLog.dll
+Q:\source\repos\CurseModExtractor\bin\Debug\net8.0\CurseModExtractor.deps.json
+Q:\source\repos\CurseModExtractor\obj\Debug\net8.0\apphost.exe
+Q:\source\repos\CurseModExtractor\bin\Debug\net8.0\CurseModExtractor.runtimeconfig.json
+Q:\source\repos\CurseModExtractor\bin\Debug\net8.0\CurseModExtractor.dll
+Q:\source\repos\CurseModExtractor\bin\Debug\net8.0\CurseModExtractor.pdb
