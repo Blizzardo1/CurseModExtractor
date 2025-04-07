@@ -200,7 +200,7 @@ namespace CurseModExtractor {
                 CompressionLevel.Optimal, 
                 false);
 
-            _log?.Info("\n################################################################################################");
+            _log?.Info("################################################################################################");
 
             _log?.Warn("IMPORTANT NOTE: If you want to import this instance to MultiMC, you must install Forge manually");
             _log?.Warn($"The Forge version you need is {manifest.GetForgeVersion()!.First()}");
