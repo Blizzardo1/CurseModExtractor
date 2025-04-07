@@ -1,0 +1,32 @@
+<Project>
+  <PropertyGroup>
+    <!-- Define the target framework -->
+    <TargetFramework>uap10.0</TargetFramework>
+
+    <!-- Define the application identity -->
+    <ApplicationId></ApplicationId>
+    <PackageName>CurseModExtractor</PackageName>
+    <Publisher>Blizzardo1</Publisher>
+    <PublisherDisplayName>Blizzardo1</PublisherDisplayName>
+    <Version>1.0.0.0</Version>
+    <Description>A CurseForge Alternative to download and create a Modpack from CurseForge.</Description>
+
+    <!-- Define the minimum and target versions -->
+    <TargetDeviceFamily>Windows.Universal</TargetDeviceFamily>
+    <MinTargetVersion>10.0.16299.0</MinTargetVersion>
+    <TargetVersion>10.0.19041.0</TargetVersion>
+
+    <!-- Define the output type -->
+    <OutputType>WinExe</OutputType>
+
+    <!-- Define the app icon and splash screen -->
+    <ApplicationIcon>Assets\YourAppIcon.png</ApplicationIcon>
+    <SplashScreenImage>Assets\YourSplashScreen.png</SplashScreenImage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Add references to any required NuGet packages -->
+    <PackageReference Include="Microsoft.Windows.SDK.Contracts" Version="10.0.19041.0" />
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.10" />
+  </ItemGroup>
+</Project>
